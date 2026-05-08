@@ -1,0 +1,29 @@
+{
+  "langLabel": "Idioma",
+  "brand": "RecallNest",
+  "nav": {
+    "method": "Método",
+    "features": "Funções",
+    "decks": "Baralhos",
+    "progress": "Progresso",
+    "download": "Baixar"
+  },
+  "cta": {
+    "getStarted": "Começar",
+    "downloadPlay": "Baixar na Play Store",
+    "learnMore": "Saiba mais"
+  },
+  "hero": {
+    "titleLine1": "Estude de forma",
+    "titleLine2": "mais inteligente.",
+    "subtitle": "Organize, revise e aprenda no seu ritmo com o modelo SM-P. Um sistema inteligente que se adapta à sua memória para resultados extraordinários."
+  },
+  "socialProof": {
+    "join": "Junte-se a +100 estudantes"
+  },
+  "overlay": {
+    "contact": "Contato",
+    "privacy": "Privacidade",
+    "terms": "Termos"
+  }
+}
