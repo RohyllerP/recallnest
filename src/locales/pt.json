@@ -25,5 +25,43 @@
     "contact": "Contato",
     "privacy": "Privacidade",
     "terms": "Termos"
+  },
+  "features": {
+    "smpTitle": "O Modelo de Estudo SM-P",
+    "smpSubtitle": "Nosso algoritmo inteligente prevê quando você vai esquecer um conceito e o lembra no momento exato.",
+    "smpCards": {
+      "adaptive": {
+        "title": "Algoritmo Adaptativo",
+        "desc": "Analisa sua velocidade de resposta e precisão para ajustar os intervalos automaticamente."
+      },
+      "spaced": {
+        "title": "Repetição Espaçada",
+        "desc": "Otimiza a memória de longo prazo através de uma programação estratégica de sessões."
+      },
+      "progress": {
+        "title": "Progresso Real",
+        "desc": "Visualize como sua retenção melhora com gráficos detalhados e metas personalizadas."
+      }
+    },
+    "modesTitle": "Modos de Estudo Adaptáveis",
+    "modesSubtitle": "Nem todos os dias são iguais. Escolha o modo que melhor se adapta à sua energia e tempo.",
+    "modes": {
+      "normal": {
+        "title": "Modo Geral",
+        "desc": "A maneira mais rápida de se manter atualizado. Soma todos os seus cartões pendentes de todos os baralhos."
+      },
+      "hard": {
+        "title": "Modo Intensivo",
+        "desc": "Foque no que é difícil. Selecione baralhos específicos e pratique apenas os cartões que você mais tem dificuldade."
+      },
+      "casual": {
+        "title": "Modo Casual",
+        "desc": "Estudo sem pressão. Revise qualquer conteúdo sem afetar as estatísticas ou os intervalos do SM-P."
+      },
+      "custom": {
+        "title": "Baralho Individual",
+        "desc": "Controle total. Estude um único baralho respeitando seus limites diários de novos cartões e revisões."
+      }
+    }
   }
 }

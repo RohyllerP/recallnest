@@ -25,5 +25,43 @@
     "contact": "Contacto",
     "privacy": "Privacidad",
     "terms": "Términos"
+  },
+  "features": {
+    "smpTitle": "El Modelo de Estudio SM-P",
+    "smpSubtitle": "Nuestro algoritmo inteligente predice cuándo vas a olvidar un concepto y te lo recuerda en el momento exacto.",
+    "smpCards": {
+      "adaptive": {
+        "title": "Algoritmo Adaptativo",
+        "desc": "Analiza tu velocidad de respuesta y precisión para ajustar los intervalos automáticamente."
+      },
+      "spaced": {
+        "title": "Repetición Espaciada",
+        "desc": "Optimiza la memoria a largo plazo mediante una programación estratégica de sesiones."
+      },
+      "progress": {
+        "title": "Progreso Real",
+        "desc": "Visualiza cómo tu retención mejora con gráficos detallados y objetivos personalizados."
+      }
+    },
+    "modesTitle": "Modos de Estudio Adaptables",
+    "modesSubtitle": "No todos los días se estudia igual. Elige el modo que mejor se adapte a tu energía y tiempo.",
+    "modes": {
+      "normal": {
+        "title": "Modo General",
+        "desc": "La forma más rápida de estar al día. Suma todas tus cartas pendientes de todos los mazos en una sesión optimizada."
+      },
+      "hard": {
+        "title": "Modo Intensivo",
+        "desc": "Enfócate en lo difícil. Selecciona mazos específicos y practica solo las cartas que más te cuestan dominar."
+      },
+      "casual": {
+        "title": "Modo Casual",
+        "desc": "Estudio sin presión. Repasa cualquier contenido sin afectar las estadísticas o intervalos del algoritmo SM-P."
+      },
+      "custom": {
+        "title": "Mazo Individual",
+        "desc": "Control total. Estudia un solo mazo respetando tus límites diarios de cartas nuevas y repasos configurados."
+      }
+    }
   }
 }

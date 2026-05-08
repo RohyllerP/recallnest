@@ -25,5 +25,43 @@
     "contact": "Contact",
     "privacy": "Privacy",
     "terms": "Terms"
+  },
+  "features": {
+    "smpTitle": "The SM-P Study Model",
+    "smpSubtitle": "Our intelligent algorithm predicts when you're about to forget a concept and reminds you at the exact right time.",
+    "smpCards": {
+      "adaptive": {
+        "title": "Adaptive Algorithm",
+        "desc": "Analyzes your response speed and accuracy to adjust review intervals automatically."
+      },
+      "spaced": {
+        "title": "Spaced Repetition",
+        "desc": "Optimizes long-term memory through strategic session scheduling."
+      },
+      "progress": {
+        "title": "Real Progress",
+        "desc": "Visualize how your retention improves with detailed charts and personalized goals."
+      }
+    },
+    "modesTitle": "Adaptable Study Modes",
+    "modesSubtitle": "Not every day is the same. Choose the mode that best fits your energy and time.",
+    "modes": {
+      "normal": {
+        "title": "General Mode",
+        "desc": "The fastest way to stay up to date. Combines all pending cards from all decks in one optimized session."
+      },
+      "hard": {
+        "title": "Intensive Mode",
+        "desc": "Focus on the difficult stuff. Select specific decks and practice only the cards you struggle with most."
+      },
+      "casual": {
+        "title": "Casual Mode",
+        "desc": "Stress-free study. Review any content without affecting statistics or the SM-P algorithm intervals."
+      },
+      "custom": {
+        "title": "Individual Deck",
+        "desc": "Total control. Study a single deck respecting your daily limits for new cards and reviews."
+      }
+    }
   }
 }
