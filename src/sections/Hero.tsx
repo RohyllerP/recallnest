@@ -3,10 +3,7 @@ import { useEffect, useId, useState } from "react";
 import { AnimatePresence, MotionConfig, motion } from "framer-motion";
 import { Play, ArrowRight, ChevronDown } from "lucide-react";
 import Image from "next/image";
-import en from "@/locales/en.json";
-import es from "@/locales/es.json";
-import pt from "@/locales/pt.json";
-
+import { useLocale } from "@/context/LocaleContext";
 function MenuToggleButton({
   isOpen,
   onClick,
@@ -41,44 +38,28 @@ function MenuToggleButton({
 }
 
 export default function Hero() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [locale, setLocale] = useState<"es" | "en" | "pt">("es");
-  const overlayTitleId = useId();
-  const t = locale === "en" ? en : locale === "pt" ? pt : es;
-  const phoneImageSrc = locale === "en" ? "/images/home_en.png" : locale === "pt" ? "/images/home_pt.png" : "/images/home_es.png";
+const { t, locale, setLocale } = useLocale();
+const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+const overlayTitleId = useId();
+const phoneImageSrc = locale === "en" ? "/images/home_en.png" : locale === "pt" ? "/images/home_pt.png" : "/images/home_es.png";
 
-  useEffect(() => {
-    const saved = window.localStorage.getItem("recallnest_locale");
-    if (saved === "en" || saved === "es" || saved === "pt") {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setLocale(saved);
-    }
-  }, []);
-
-  useEffect(() => {
-    window.localStorage.setItem("recallnest_locale", locale);
-  }, [locale]);
-
-  useEffect(() => {
+useEffect(() => {
     if (!isMobileMenuOpen) return;
-
     const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setIsMobileMenuOpen(false);
+        if (event.key === "Escape") setIsMobileMenuOpen(false);
     };
-
     document.addEventListener("keydown", onKeyDown);
     return () => document.removeEventListener("keydown", onKeyDown);
-  }, [isMobileMenuOpen]);
+}, [isMobileMenuOpen]);
 
-  useEffect(() => {
+useEffect(() => {
     if (!isMobileMenuOpen) return;
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     return () => {
-      document.body.style.overflow = previousOverflow;
+        document.body.style.overflow = previousOverflow;
     };
-  }, [isMobileMenuOpen]);
-
+}, [isMobileMenuOpen]);
   return (
     <>
       {/* Navigation */}
@@ -86,11 +67,11 @@ export default function Hero() {
         <div className="flex items-center h-20 px-6 max-w-7xl mx-auto gap-4">
           <div className="text-2xl font-bold text-primary tracking-tight">{t.brand}</div>
           <div className="hidden md:flex flex-1 justify-center gap-8 items-center">
-            <a className="text-primary font-bold border-b-2 border-primary pb-1 text-sm" href="#features">{t.nav.method}</a>
-            <a className="text-on-surface-variant hover:text-primary transition-colors text-sm font-semibold border-b-2 border-transparent pb-1" href="#">{t.nav.features}</a>
-            <a className="text-on-surface-variant hover:text-primary transition-colors text-sm font-semibold border-b-2 border-transparent pb-1" href="#">{t.nav.decks}</a>  
-            <a className="text-on-surface-variant hover:text-primary transition-colors text-sm font-semibold border-b-2 border-transparent pb-1" href="#">{t.nav.progress}</a> 
-            <a className="text-on-surface-variant hover:text-primary transition-colors text-sm font-semibold border-b-2 border-transparent pb-1" href="#">{t.nav.download}</a>      
+            <a className="text-primary font-bold border-b-2 border-primary pb-1 text-sm" href="#">{t.nav.method}</a>
+            <a className="text-on-surface-variant hover:text-primary transition-colors text-sm font-semibold border-b-2 border-transparent pb-1" href="#features">{t.nav.features}</a>
+            <a className="text-on-surface-variant hover:text-primary transition-colors text-sm font-semibold border-b-2 border-transparent pb-1" href="#decks">{t.nav.decks}</a>  
+            <a className="text-on-surface-variant hover:text-primary transition-colors text-sm font-semibold border-b-2 border-transparent pb-1" href="#progress">{t.nav.progress}</a> 
+            <a className="text-on-surface-variant hover:text-primary transition-colors text-sm font-semibold border-b-2 border-transparent pb-1" href="#download">{t.nav.download}</a>      
              </div>
 
           <div className="ml-auto flex items-center gap-3">
@@ -164,7 +145,7 @@ export default function Hero() {
                 <li>
                   <a
                     className="text-4xl font-bold text-on-primary-container hover:text-white transition-colors"
-                    href="#features"
+                    href="#"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {t.nav.method}
@@ -173,7 +154,7 @@ export default function Hero() {
                 <li>
                   <a
                     className="text-4xl font-bold text-on-primary-container hover:text-white transition-colors"
-                    href="#"
+                    href="#features"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {t.nav.features}
@@ -182,7 +163,7 @@ export default function Hero() {
                 <li>
                   <a
                     className="text-4xl font-bold text-on-primary-container hover:text-white transition-colors"
-                    href="#"
+                    href="#decks"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {t.nav.decks}
@@ -191,7 +172,7 @@ export default function Hero() {
                 <li>
                   <a
                     className="text-4xl font-bold text-on-primary-container hover:text-white transition-colors"
-                    href="#"
+                    href="#progress"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {t.nav.progress}
@@ -200,7 +181,7 @@ export default function Hero() {
                 <li>
                   <a
                     className="text-4xl font-bold text-on-primary-container hover:text-white transition-colors"
-                    href="#"
+                    href="#download"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {t.nav.download}

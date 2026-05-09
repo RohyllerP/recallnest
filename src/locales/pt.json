@@ -63,5 +63,316 @@
         "desc": "Controle total. Estude um único baralho respeitando seus limites diários de novos cartões e revisões."
       }
     }
+  },
+  "decks": {
+    "title": "Tudo nos seus Decks",
+    "subtitle": "Crie, importe e estude com baralhos que se adaptam a você.",
+    "community": {
+      "badge": "Comunidade",
+      "title": "Decks Gratuitos",
+      "desc": "Acesse milhares de baralhos criados por especialistas e pela comunidade. De idiomas a medicina, tudo pronto para estudar."
+    },
+    "media": {
+      "title": "Áudio e Imagens",
+      "desc": "Enriqueça seus cartões com imagens e áudio. Carregue seus próprios arquivos para um aprendizado mais profundo."
+    },
+    "gamification": {
+      "title": "Gamificação",
+      "desc": "Ganhe pontos e suba de nível a cada cartão revisado. Transforme o estudo em um hábito divertido.",
+      "level": "Nv. 42"
+    },
+    "backup": {
+      "badge": "Segurança",
+      "title": "Backup dos seus Decks",
+      "desc": "Seus baralhos sempre seguros. Exporte e restaure todo o seu conteúdo quando quiser.",
+      "note": "O backup inclui imagens e áudios anexados aos seus cartões."
+    }
+  },
+  "stats": {
+    "title": "Conheça seu progresso real",
+    "subtitle": "Você não apenas estuda, você mede sua evolução. Estatísticas detalhadas para saber exatamente como está avançando.",
+    "weekly": {
+      "title": "Desempenho semanal",
+      "subtitle": "Cartões revisados por dia",
+      "days": [
+        "S",
+        "T",
+        "Q",
+        "Q",
+        "S",
+        "S",
+        "D"
+      ],
+      "retention": "Retenção",
+      "cards": "Cartões",
+      "streak": "Sequência"
+    },
+    "streak": {
+      "title": "Sequência ativa",
+      "desc": "dias consecutivos estudando",
+      "label": "Últimas 3 semanas"
+    },
+    "upcoming": {
+      "title": "Próximos cartões",
+      "subtitle": "Cartões agendados para os próximos 7 dias",
+      "today": "Hoje"
+    },
+    "hard": {
+      "title": "Palavras difíceis",
+      "note": "Cartões com menor retenção são revisados com mais frequência.",
+      "w1": "Efêmero",
+      "w2": "Sicofanta",
+      "w3": "Pérfido"
+    },
+    "hardWords": {
+      "w1": "Efêmero",
+      "w2": "Sicofanta",
+      "w3": "Pérfido"
+    },
+    "retention": {
+      "title": "Retenção por categoria",
+      "avg": "Média global: 85%",
+      "categories": [
+        {
+          "name": "Vocabulário",
+          "value": 88
+        },
+        {
+          "name": "Gramática",
+          "value": 74
+        },
+        {
+          "name": "Verbos",
+          "value": 91
+        },
+        {
+          "name": "Frases",
+          "value": 79
+        }
+      ]
+    },
+    "cta": {
+      "title": "Acompanhamento profundo do seu aprendizado",
+      "desc": "Obtenha relatórios diários, semanais e mensais do seu desempenho real. Saiba quantos cartões te esperam amanhã, quais conceitos precisam ser reforçados e como sua retenção evolui com o tempo.",
+      "bullets": [
+        "Mapas de calor de atividade diária",
+        "Taxa de retenção por categoria e cartão",
+        "Previsão de carga de estudo futura"
+      ]
+    }
+  },
+  "cta2": {
+    "titleLine1": "Pronto para melhorar",
+    "titleLine2": "suas notas hoje?",
+    "subtitle": "Junte-se a milhares de estudantes que já estão otimizando seu tempo e melhorando seus resultados com RecallNest.",
+    "playStore": {
+      "label": "Disponível no",
+      "name": "Google Play"
+    },
+    "apk": {
+      "label": "Baixar",
+      "name": "Arquivo APK"
+    },
+    "appStore": {
+      "label": "Em breve no",
+      "name": "App Store",
+      "soon": "Em breve"
+    },
+    "tagline": "Pequenos hábitos, grandes resultados."
+  },
+  "footer": {
+    "tagline": "Aprendizado inteligente para um futuro mais brilhante.",
+    "rights": "Todos os direitos reservados.",
+    "made": "Feito com dedicação para estudantes do mundo.",
+    "product": {
+      "title": "Produto",
+      "features": "Características",
+      "apps": "Apps móveis"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "Sobre nós",
+      "contact": "Contato",
+      "support": "Suporte"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Política de privacidade",
+      "terms": "Termos e condições",
+      "cookies": "Cookies",
+      "cookiesText": "Usamos cookies principalmente para lembrar que você prefere estudar em português e para entender como melhorar nosso app. Sua privacidade é muito importante: não vendemos seus dados para ninguém nem usamos cookies para publicidade. Os cookies nos ajudam a tornar sua experiência mais fluida, personalizada e segura. Ao continuar usando o RecallNest, você concorda com o uso de cookies para esses fins essenciais."
+    }
+  },
+  
+
+  "methodology": {
+    "badge": "METODOLOGIA CIENTÍFICA",
+    "title": "Os 4 Pilares do RecallNest",
+    "subtitle": "Fundimos a neurociência com a tecnologia para garantir que o que você aprende hoje, lembre para sempre.",
+    "readMore": "Ler mais",
+    "readLess": "Fechar",
+    "pillars": {
+      "p1": {
+        "title": "Input Compreensível",
+        "short": "A teoria fundamental para adquirir idiomas de forma natural, sem a dor da memorização forçada."
+      },
+      "p2": {
+        "title": "A Curva do Esquecimento",
+        "short": "Vencemos a perda natural de informação por meio de intervenções estratégicas no tempo."
+      },
+      "p3": {
+        "title": "Active Recall",
+        "short": "Não leia passivamente. Force seu cérebro a recuperar informações para fortalecer as conexões."
+      },
+      "p4": {
+        "title": "SRS (Repetição Espaçada)",
+        "short": "Um algoritmo inteligente que personaliza seus intervalos de estudo para eficiência total."
+      }
+    },
+    "srs": {
+      "title": "SRS: O Algoritmo do Tempo",
+      "subtitle": "Compreende como o tempo e a repetição transformam a tua memória de curto prazo em conhecimento permanente.",
+      "algorithm": {
+        "title": "O Algoritmo",
+        "desc": "A regra de ouro para uma retenção eficiente: intervalos crescentes ou reinício total.",
+        "status": {
+          "good": { "val": "4d", "label": "BEM" },
+          "better": { "val": "10d", "label": "MELHOR" },
+          "fail": { "val": "0d", "label": "FALHA" }
+        },
+        "howItWorks": {
+          "trigger": "Como funciona",
+          "content": "Se acertas, o intervalo aumenta (4 dias, depois 10 dias, etc.). Se falhas, o contador reinicia para garantir que reaprendes o conceito desde o início."
+        }
+      },
+      "lifeMoments": {
+        "title": "Momentos da vida",
+        "desc": "Integra a aprendizagem na tua rotina diária, desde a prática musical até ao trajeto para o trabalho.",
+        "scales": "Escalas",
+        "commute": "Trajeto",
+        "readMore": "Ler mais",
+        "expanded": "O SRS não é apenas para vocabulário. Usa-o para recordar sequências de acordes, fórmulas matemáticas ou qualquer informação que precises de recuperar em segundos."
+      },
+      "longTerm": {
+        "title": "O teu cérebro a longo prazo",
+        "desc": "Move informação do armazenamento temporário para o \"disco rígido\" permanente.",
+        "temporal": "TEMPORÁRIO",
+        "permanent": "PERMANENTE",
+        "metaphor": {
+          "trigger": "A metáfora",
+          "content": "O teu cérebro prioriza aquilo que usas frequentemente. O SRS engana o teu cérebro, fazendo-o acreditar que essa informação é vital para a sobrevivência, armazenando-a na memória profunda."
+        }
+      }
+    },
+  
+    "activeRecall": {
+      "title": "O que é o Active Recall?",
+      "subtitle": "A técnica de estudo mais poderosa segundo a neurociência para transferir informação para a tua memória de longo prazo.",
+      "vsCard": {
+        "title": "Estudo Passivo vs. Ativo",
+        "passive": "Passivo (Re-ler)",
+        "active": "Ativo (Recordação)",
+        "desc": "Re-ler os teus apontamentos cria uma ilusão de competência. A Recordação Ativa obriga o teu cérebro a construir o caminho até à informação, fortalecendo-o."
+      },
+      "steps": {
+        "title": "O processo no teu cérebro",
+        "step1": {
+          "title": "Pergunta",
+          "desc": "Vês um conceito ou pergunta sem a resposta visível."
+        },
+        "step2": {
+          "title": "Esforço",
+          "desc": "O teu cérebro procura intensamente a informação nas tuas ligações neurais."
+        },
+        "step3": {
+          "title": "Conexão",
+          "desc": "Ao encontrá-la (ou falhar e ver a solução), a ligação torna-se 10x mais forte."
+        }
+      },
+      "benefits": {
+        "title": "Porque funciona?",
+        "neural": {
+          "title": "Rotas Neuronais",
+          "desc": "É como criar um caminho numa floresta; quanto mais o percorres, mais fácil se torna atravessá-lo."
+        },
+        "time": {
+          "title": "Eficiência",
+          "desc": "Estudas menos tempo porque cada minuto de esforço rende o triplo da leitura normal."
+        }
+      }
+    },
+    "forgettingCurve": {
+      "title": "Entendendo o esquecimento",
+      "subtitle": "Por que esquecemos tão rápido? Descubra a ciência por trás da memória e como combatê-la.",
+      "whatIs": {
+        "title": "O que é?",
+        "lossBadge": "Perda de 50-80%",
+        "chartLabelY": "Retenção",
+        "chartLabelX": "Tempo (dias)",
+        "desc1": "É o gráfico que mostra quão rápido perdemos a informação se não tentarmos lembrá-la.",
+        "desc2": "Realidade: esquecemos 50-80% do que aprendemos em apenas 24 horas se não houver revisão.",
+        "desc3": "O declínio: a perda é exponencial no início e depois se estabiliza."
+      },
+      "dailyExamples": {
+        "title": "Exemplos da vida cotidiana",
+        "names": {
+          "title": "Nomes",
+          "desc": "Você conhece alguém em uma festa e 5 minutos depois esquece o nome dela."
+        },
+        "conferences": {
+          "title": "Conferências",
+          "desc": "Você sai de uma palestra motivado, mas no dia seguinte não lembra dos pontos principais."
+        },
+        "reading": {
+          "title": "Leitura",
+          "desc": "Você lê um artigo interessante em uma semana e só lembra de uma ideia vaga."
+        }
+      }
+    },
+    "ciDetails": {
+      "formula": {
+        "title": "A fórmula i + 1",
+        "desc": "Consiste em consumir conteúdo onde você entende 80% pelo contexto e os 20% restantes são o novo desafio (+1). Você não 'estuda' regras, você 'adquire' o idioma naturalmente.",
+        "label80": "Conhecido (i)",
+        "label20": "Novo (+1)",
+        "comfort": "Zona de conforto",
+        "challenge": "Zona de aprendizagem"
+      },
+      "examples": {
+        "title": "Exemplos rápidos",
+        "child": {
+          "title": "Como as crianças aprendem",
+          "desc": "Você entendeu \"dê-me a bola\" porque viu a bola, não porque sabia que era um objeto direto."
+        },
+        "series": {
+          "title": "Séries conhecidas",
+          "desc": "Assistir ao seu filme favorito em outro idioma. Como você já conhece o enredo, seu cérebro deduz novas palavras."
+        },
+        "reading": {
+          "title": "Leitura graduada",
+          "desc": "Livros escritos especificamente para o seu nível atual."
+        }
+      },
+      "benefits": {
+        "title": "Como ajuda qualquer pessoa?",
+        "stress": {
+          "title": "Menos estresse",
+          "desc": "Você substitui os livros de gramática por conteúdo que gosta (YouTube, podcasts, quadrinhos)."
+        },
+        "patterns": {
+          "title": "Padrões naturais",
+          "desc": "Você aprende padrões de fala diretamente de nativos, sem estudar regras gramaticais rígidas."
+        }
+      },
+      "output": {
+        "title": "O mistério do output",
+        "input": "Input",
+        "output": "Output",
+        "desc1": "O Output é o resultado, não a causa. Input é carregar a bateria (inserir informação) e Output é usar a energia (liberar o que foi aprendido).",
+        "desc2": "Chave: se você falar cedo demais sem input suficiente, acabará traduzindo mentalmente em vez de pensar no idioma."
+      }
+    }
   }
+
+
 }

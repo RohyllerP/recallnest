@@ -63,5 +63,316 @@
         "desc": "Total control. Study a single deck respecting your daily limits for new cards and reviews."
       }
     }
+  },
+  "decks": {
+    "title": "Everything in your Decks",
+    "subtitle": "Create, import, and study with decks that adapt to you.",
+    "community": {
+      "badge": "Community",
+      "title": "Free Decks",
+      "desc": "Access thousands of decks created by experts and the community. From languages to medicine, everything ready to study."
+    },
+    "media": {
+      "title": "Audio & Images",
+      "desc": "Enrich your cards with images and audio. Upload your own files for deeper learning."
+    },
+    "gamification": {
+      "title": "Gamification",
+      "desc": "Earn points and level up with every card reviewed. Turn studying into a fun habit.",
+      "level": "Lv. 42"
+    },
+    "backup": {
+      "badge": "Security",
+      "title": "Deck Backup",
+      "desc": "Your decks are always safe. Export and restore all your content whenever you want.",
+      "note": "The backup includes images and audio files attached to your cards."
+    }
+  },
+  "stats": {
+    "title": "Know your real progress",
+    "subtitle": "You don't just study, you measure your evolution. Detailed statistics so you know exactly how you're advancing.",
+    "weekly": {
+      "title": "Weekly performance",
+      "subtitle": "Cards reviewed per day",
+      "days": [
+        "M",
+        "T",
+        "W",
+        "T",
+        "F",
+        "S",
+        "S"
+      ],
+      "retention": "Retention",
+      "cards": "Cards",
+      "streak": "Streak"
+    },
+    "streak": {
+      "title": "Active streak",
+      "desc": "consecutive days studying",
+      "label": "Last 3 weeks"
+    },
+    "upcoming": {
+      "title": "Upcoming cards",
+      "subtitle": "Cards scheduled for the next 7 days",
+      "today": "Today"
+    },
+    "hard": {
+      "title": "Hard words",
+      "note": "Cards with lower retention are reviewed more frequently.",
+      "w1": "Ephemeral",
+      "w2": "Sycophant",
+      "w3": "Perfidious"
+    },
+    "hardWords": {
+      "w1": "Ephemeral",
+      "w2": "Sycophant",
+      "w3": "Perfidious"
+    },
+    "retention": {
+      "title": "Retention by category",
+      "avg": "Global average: 85%",
+      "categories": [
+        {
+          "name": "Vocabulary",
+          "value": 88
+        },
+        {
+          "name": "Grammar",
+          "value": 74
+        },
+        {
+          "name": "Verbs",
+          "value": 91
+        },
+        {
+          "name": "Phrases",
+          "value": 79
+        }
+      ]
+    },
+    "cta": {
+      "title": "Deep tracking of your learning",
+      "desc": "Get daily, weekly, and monthly reports of your real performance. Know how many cards await you tomorrow, which concepts need reinforcing, and how your retention evolves over time.",
+      "bullets": [
+        "Daily activity heat maps",
+        "Retention rate by category and card",
+        "Future study load prediction"
+      ]
+    }
+    
+  },
+  "cta2": {
+      "titleLine1": "Ready to improve",
+      "titleLine2": "your grades today?",
+      "subtitle": "Join thousands of students already optimizing their time and improving their results with RecallNest.",
+      "playStore": {
+        "label": "Get it on",
+        "name": "Google Play"
+      },
+      "apk": {
+        "label": "Download",
+        "name": "APK File"
+      },
+      "appStore": {
+        "label": "Coming soon to",
+        "name": "App Store",
+        "soon": "Soon"
+      },
+      "tagline": "Small habits, big results."
+    },
+    "footer": {
+  "tagline": "Intelligent learning for a brighter future.",
+  "rights": "All rights reserved.",
+  "made": "Made with dedication for students around the world.",
+  "product": {
+    "title": "Product",
+    "features": "Features",
+    "apps": "Mobile apps"
+  },
+  "company": {
+    "title": "Company",
+    "about": "About us",
+    "contact": "Contact",
+    "support": "Support"
+  },
+  "legal": {
+    "title": "Legal",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service",
+    "cookies": "Cookies",
+    "cookiesText": "We use cookies mainly to remember your language preference and to understand how we can improve our app. Your privacy is important to us: we do not sell your data to anyone, nor do we use cookies for advertising. Cookies help us make your experience smoother, more personal, and more secure. By continuing to use RecallNest, you agree to our use of cookies for these essential purposes."
   }
+},
+
+  "methodology": {
+    "badge": "SCIENTIFIC METHODOLOGY",
+    "title": "The 4 Pillars of RecallNest",
+    "subtitle": "We merge neuroscience with technology to ensure that what you learn today, you remember forever.",
+    "readMore": "Read more",
+    "readLess": "Close",
+    "pillars": {
+      "p1": {
+        "title": "Comprehensible Input",
+        "short": "The key theory for acquiring languages naturally, without the pain of forced memorization."
+      },
+      "p2": {
+        "title": "The Forgetting Curve",
+        "short": "We overcome the natural loss of information through strategic time interventions."
+      },
+      "p3": {
+        "title": "Active Recall",
+        "short": "Don't read passively. Force your brain to retrieve information to strengthen connections."
+      },
+      "p4": {
+        "title": "SRS (Spaced Repetition)",
+        "short": "An intelligent algorithm that personalizes your study intervals for total efficiency."
+      }
+    },
+    "srs": {
+      "title": "SRS: The Time Algorithm",
+      "subtitle": "Understand how time and repetition transform your short-term memory into permanent knowledge.",
+      "algorithm": {
+        "title": "The Algorithm",
+        "desc": "The golden rule for efficient retention: increasing intervals or complete reset.",
+        "status": {
+          "good": { "val": "4d", "label": "GOOD" },
+          "better": { "val": "10d", "label": "BETTER" },
+          "fail": { "val": "0d", "label": "FAIL" }
+        },
+        "howItWorks": {
+          "trigger": "How it works",
+          "content": "If you answer correctly, the interval increases (4 days, then 10 days, etc.). If you fail, the counter resets to ensure you relearn the concept from scratch."
+        }
+      },
+      "lifeMoments": {
+        "title": "Life Moments",
+        "desc": "Integrate learning into your daily routine, from music practice to your commute to work.",
+        "scales": "Scales",
+        "commute": "Commute",
+        "readMore": "Read more",
+        "expanded": "SRS is not just for vocabulary. Use it to remember chord progressions, mathematical formulas, or any information you need to retrieve in seconds."
+      },
+      "longTerm": {
+        "title": "Your Long-Term Brain",
+        "desc": "Move information from temporary storage to your permanent \"hard drive.\"",
+        "temporal": "TEMPORARY",
+        "permanent": "PERMANENT",
+        "metaphor": {
+          "trigger": "The metaphor",
+          "content": "Your brain prioritizes what you use frequently. SRS tricks your brain into believing that information is vital for survival, storing it in deep memory."
+        }
+      }
+    },
+    "activeRecall": {
+      "title": "What is Active Recall?",
+      "subtitle": "The most powerful study technique according to neuroscience for transferring information into your long-term memory.",
+      "vsCard": {
+        "title": "Passive vs. Active Study",
+        "passive": "Passive (Re-reading)",
+        "active": "Active (Recall)",
+        "desc": "Re-reading your notes creates an illusion of competence. Active Recall forces your brain to build the pathway to the information, strengthening it."
+      },
+      "steps": {
+        "title": "The process inside your brain",
+        "step1": {
+          "title": "Question",
+          "desc": "You see a concept or question without the answer in sight."
+        },
+        "step2": {
+          "title": "Effort",
+          "desc": "Your brain intensely searches for the information within your neural connections."
+        },
+        "step3": {
+          "title": "Connection",
+          "desc": "When you find it (or fail and then see the solution), the connection becomes 10x stronger."
+        }
+      },
+      "benefits": {
+        "title": "Why does it work?",
+        "neural": {
+          "title": "Neural Pathways",
+          "desc": "It’s like creating a path in a forest; the more you walk it, the easier it becomes to travel."
+        },
+        "time": {
+          "title": "Efficiency",
+          "desc": "You study for less time because every minute of effort is worth three times more than normal reading."
+        }
+      }
+    },
+    "forgettingCurve": {
+      "title": "Understanding Forgetting",
+      "subtitle": "Why do we forget so fast? Discover the science behind memory and how to combat it.",
+      "whatIs": {
+        "title": "What is it?",
+        "lossBadge": "50-80% Loss",
+        "chartLabelY": "Retention",
+        "chartLabelX": "Time (days)",
+        "desc1": "It's the graph that shows how quickly we lose information if we don't try to remember it.",
+        "desc2": "Reality: we forget 50-80% of what we've learned in just 24 hours without review.",
+        "desc3": "The decline: the loss is exponential at first and then stabilizes."
+      },
+      "dailyExamples": {
+        "title": "Daily life examples",
+        "names": {
+          "title": "Names",
+          "desc": "You meet someone at a party and forget their name 5 minutes later."
+        },
+        "conferences": {
+          "title": "Conferences",
+          "desc": "You leave a keynote speech motivated, but the next day you don't remember the key points."
+        },
+        "reading": {
+          "title": "Reading",
+          "desc": "You read an interesting article in a week and only remember a vague idea."
+        }
+      }
+    },
+  
+    
+    "ciDetails": {
+      "formula": {
+        "title": "The i + 1 Formula",
+        "desc": "It involves consuming content where you understand 80% through context and the remaining 20% is the new challenge (+1). You don't 'study' rules, you 'acquire' the language naturally.",
+        "label80": "Known (i)",
+        "label20": "New (+1)",
+        "comfort": "Comfort zone",
+        "challenge": "Learning zone"
+      },
+      "examples": {
+        "title": "Quick examples",
+        "child": {
+          "title": "How children learn",
+          "desc": "You understood \"give me the ball\" because you saw the ball, not because you knew it was a direct object."
+        },
+        "series": {
+          "title": "Familiar series",
+          "desc": "Watching your favorite movie in another language. Since you already know the plot, your brain deduces new words."
+        },
+        "reading": {
+          "title": "Graded reading",
+          "desc": "Books written specifically for your current level."
+        }
+      },
+      "benefits": {
+        "title": "How does it help anyone?",
+        "stress": {
+          "title": "Less stress",
+          "desc": "You replace grammar books with content you enjoy (YouTube, podcasts, comics)."
+        },
+        "patterns": {
+          "title": "Natural patterns",
+          "desc": "You learn speech patterns directly from natives, without studying rigid grammatical rules."
+        }
+      },
+      "output": {
+        "title": "The mystery of output",
+        "input": "Input",
+        "output": "Output",
+        "desc1": "Output is the result, not the cause. Input is charging the battery (putting information in) and Output is using the energy (releasing what you've learned).",
+        "desc2": "Key: if you speak too soon without enough input, you'll end up translating mentally instead of thinking in the language."
+      }
+    }
+  }
+
 }
