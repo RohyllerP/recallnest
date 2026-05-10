@@ -6,6 +6,7 @@
     "features": "Funciones",
     "decks": "Mazos",
     "progress": "Progreso",
+    "srs": "SRS",
     "download": "Descargar"
   },
   "cta": {
@@ -200,7 +201,9 @@
       "privacy": "Política de privacidad",
       "terms": "Términos y condiciones",
       "cookies": "Cookies",
-      "cookiesText": "Usamos cookies principalmente para recordar que prefieres estudiar en español y para entender cómo mejorar nuestra app. Tu privacidad es muy importante: no vendemos tus datos a nadie ni usamos cookies para publicidad. Las cookies nos ayudan a que tu experiencia sea más fluida, personalizada y segura. Al seguir usando RecallNest, aceptas el uso de cookies para estos fines esenciales."
+      "cookiesText": "Usamos cookies principalmente para recordar que prefieres estudiar en español y para entender cómo mejorar nuestra app. Tu privacidad es muy importante: no vendemos tus datos a nadie ni usamos cookies para publicidad. Las cookies nos ayudan a que tu experiencia sea más fluida, personalizada y segura. Al seguir usando RecallNest, aceptas el uso de cookies para estos fines esenciales.",
+      "cookiesAccept": "Aceptar",
+"cookiesDecline": "Rechazar"
     }
   },
   "methodology": {

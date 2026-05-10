@@ -52,7 +52,7 @@ export default function SRS() {
   });
 
   return (
-    <section className="py-24 bg-surface overflow-hidden">
+    <section className="py-24 bg-surface overflow-hidden" id="srs">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* --- HEADER ANIMADO AL SCROLL --- */}

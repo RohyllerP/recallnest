@@ -5,6 +5,7 @@ import Progress from "@/sections/Progress";
 import SRS from "@/sections/SRS";
 import CTA from "@/sections/Download";
 import Footer from "@/sections/Footer";
+import CookieBanner from "@/app/components/CookieBanner";
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
@@ -15,6 +16,7 @@ export default function Home() {
       <SRS />
       <CTA />
       <Footer />
+      <CookieBanner />
     </main>
   );
 }

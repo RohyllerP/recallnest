@@ -6,6 +6,7 @@
     "features": "Funções",
     "decks": "Baralhos",
     "progress": "Progresso",
+    "srs": "SRS",
     "download": "Baixar"
   },
   "cta": {
@@ -200,7 +201,9 @@
       "privacy": "Política de privacidade",
       "terms": "Termos e condições",
       "cookies": "Cookies",
-      "cookiesText": "Usamos cookies principalmente para lembrar que você prefere estudar em português e para entender como melhorar nosso app. Sua privacidade é muito importante: não vendemos seus dados para ninguém nem usamos cookies para publicidade. Os cookies nos ajudam a tornar sua experiência mais fluida, personalizada e segura. Ao continuar usando o RecallNest, você concorda com o uso de cookies para esses fins essenciais."
+      "cookiesText": "Usamos cookies principalmente para lembrar que você prefere estudar em português e para entender como melhorar nosso app. Sua privacidade é muito importante: não vendemos seus dados para ninguém nem usamos cookies para publicidade. Os cookies nos ajudam a tornar sua experiência mais fluida, personalizada e segura. Ao continuar usando o RecallNest, você concorda com o uso de cookies para esses fins essenciais.",
+      "cookiesAccept": "Aceitar",
+"cookiesDecline": "Recusar"
     }
   },
   

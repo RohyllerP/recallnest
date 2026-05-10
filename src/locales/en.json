@@ -6,6 +6,7 @@
     "features": "Features",
     "decks": "Decks",
     "progress": "Progress",
+    "srs": "SRS",
     "download": "Download"
   },
   "cta": {
@@ -160,51 +161,51 @@
         "Future study load prediction"
       ]
     }
-    
   },
   "cta2": {
-      "titleLine1": "Ready to improve",
-      "titleLine2": "your grades today?",
-      "subtitle": "Join thousands of students already optimizing their time and improving their results with RecallNest.",
-      "playStore": {
-        "label": "Get it on",
-        "name": "Google Play"
-      },
-      "apk": {
-        "label": "Download",
-        "name": "APK File"
-      },
-      "appStore": {
-        "label": "Coming soon to",
-        "name": "App Store",
-        "soon": "Soon"
-      },
-      "tagline": "Small habits, big results."
+    "titleLine1": "Ready to improve",
+    "titleLine2": "your grades today?",
+    "subtitle": "Join thousands of students already optimizing their time and improving their results with RecallNest.",
+    "playStore": {
+      "label": "Get it on",
+      "name": "Google Play"
     },
-    "footer": {
-  "tagline": "Intelligent learning for a brighter future.",
-  "rights": "All rights reserved.",
-  "made": "Made with dedication for students around the world.",
-  "product": {
-    "title": "Product",
-    "features": "Features",
-    "apps": "Mobile apps"
+    "apk": {
+      "label": "Download",
+      "name": "APK File"
+    },
+    "appStore": {
+      "label": "Coming soon to",
+      "name": "App Store",
+      "soon": "Soon"
+    },
+    "tagline": "Small habits, big results."
   },
-  "company": {
-    "title": "Company",
-    "about": "About us",
-    "contact": "Contact",
-    "support": "Support"
+  "footer": {
+    "tagline": "Intelligent learning for a brighter future.",
+    "rights": "All rights reserved.",
+    "made": "Made with dedication for students around the world.",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "apps": "Mobile apps"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About us",
+      "contact": "Contact",
+      "support": "Support"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy policy",
+      "terms": "Terms of service",
+      "cookies": "Cookies",
+      "cookiesText": "We use cookies mainly to remember your language preference and to understand how we can improve our app. Your privacy is important to us: we do not sell your data to anyone, nor do we use cookies for advertising. Cookies help us make your experience smoother, more personal, and more secure. By continuing to use RecallNest, you agree to our use of cookies for these essential purposes.",
+      "cookiesAccept": "Accept",
+"cookiesDecline": "Decline"
+    }
   },
-  "legal": {
-    "title": "Legal",
-    "privacy": "Privacy policy",
-    "terms": "Terms of service",
-    "cookies": "Cookies",
-    "cookiesText": "We use cookies mainly to remember your language preference and to understand how we can improve our app. Your privacy is important to us: we do not sell your data to anyone, nor do we use cookies for advertising. Cookies help us make your experience smoother, more personal, and more secure. By continuing to use RecallNest, you agree to our use of cookies for these essential purposes."
-  }
-},
-
   "methodology": {
     "badge": "SCIENTIFIC METHODOLOGY",
     "title": "The 4 Pillars of RecallNest",
@@ -236,9 +237,18 @@
         "title": "The Algorithm",
         "desc": "The golden rule for efficient retention: increasing intervals or complete reset.",
         "status": {
-          "good": { "val": "4d", "label": "GOOD" },
-          "better": { "val": "10d", "label": "BETTER" },
-          "fail": { "val": "0d", "label": "FAIL" }
+          "good": {
+            "val": "4d",
+            "label": "GOOD"
+          },
+          "better": {
+            "val": "10d",
+            "label": "BETTER"
+          },
+          "fail": {
+            "val": "0d",
+            "label": "FAIL"
+          }
         },
         "howItWorks": {
           "trigger": "How it works",
@@ -328,8 +338,6 @@
         }
       }
     },
-  
-    
     "ciDetails": {
       "formula": {
         "title": "The i + 1 Formula",
@@ -374,5 +382,4 @@
       }
     }
   }
-
 }

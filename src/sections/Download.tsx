@@ -58,7 +58,8 @@ export default function CTA() {
 
                     {/* Descargar APK */}
                     <a
-                        href="#"
+                        href="/apk/recallnest.apk"
+                        download
                         className="flex items-center gap-3 bg-secondary-container text-on-secondary-container px-8 py-4 rounded-xl font-semibold hover:scale-105 transition-all duration-300 hover:shadow-lg min-w-[200px] justify-center"
                     >
                         <Download size={22} />
