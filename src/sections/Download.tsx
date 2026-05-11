@@ -40,7 +40,8 @@ export default function CTA() {
                 >
                     {/* Google Play */}
                     <a
-                        href="#"
+                        href="https://play.google.com/store/apps/details?id=com.recallnest.app"
+                        target="_blank"
                         className="flex items-center gap-3 bg-primary-container text-on-primary-container px-8 py-4 rounded-xl font-semibold hover:scale-105 transition-all duration-300 hover:shadow-lg min-w-[200px] justify-center"
                     >
                         {/* Google Play SVG icon */}
