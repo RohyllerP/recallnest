@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Variants } from "framer-motion";
 import { useLocale } from "@/context/LocaleContext";
 import {
     BookOpenText, TrendingDown, Brain, RefreshCcw,
@@ -17,7 +17,7 @@ const pillarsConfig = [
     { key: "p3" as const, icon: <Brain size={28} />, color: "bg-primary/10 text-primary" },
     { key: "p4" as const, icon: <RefreshCcw size={28} />, color: "bg-[#d9e6dd] text-[#131e19]" }
 ];
-const sectionVariants = {
+const sectionVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: { 
     opacity: 1, 
@@ -149,7 +149,7 @@ function DetailedInputComprensible({ t }: any) {
   const d = t.methodology.ciDetails;
 
   // Definimos variantes para la cascada de elementos
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -160,7 +160,7 @@ function DetailedInputComprensible({ t }: any) {
     }
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
     visible: { 
       y: 0, 
@@ -322,7 +322,7 @@ function ForgettingCurveDetail({ t }: any) {
   const d = t.methodology.forgettingCurve;
 
   // Variantes para la cascada (Stagger)
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -333,7 +333,7 @@ function ForgettingCurveDetail({ t }: any) {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
       y: 0,
@@ -557,7 +557,7 @@ function SRSAlgorithmDetail({ t }: any) {
   const toggle = (section: string) => setOpenSection(openSection === section ? null : section);
 
   // Variantes para la cascada (Stagger)
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -568,7 +568,7 @@ function SRSAlgorithmDetail({ t }: any) {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
       y: 0,
