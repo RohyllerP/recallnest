@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { LocaleProvider, type Locale } from "@/context/LocaleContext";
 import { cookies } from "next/headers";
+import { Analytics } from "@vercel/analytics/next";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -84,6 +86,7 @@ export default async function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <LocaleProvider initialLocale={initialLocale}>{children}</LocaleProvider>
+        <Analytics />
       </body>
     </html>
   );
