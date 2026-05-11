@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   // Título básico y descripción
-  title: "RecallNest | Domina tu Memoria con el Modelo SM-P",
+  title: "RecallNest",
   description: "Optimiza tu estudio con repetición espaciada inteligente. RecallNest predice tus olvidos y te ayuda a memorizar de forma eficiente con mazos personalizados y estadísticas reales.",
   keywords: ["estudio", "flashcards", "memorización", "repetición espaciada", "SM-P", "aprendizaje", "RecallNest"],
   authors: [{ name: "RecallNest Team" }],
