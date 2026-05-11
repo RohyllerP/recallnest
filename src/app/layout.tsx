@@ -24,11 +24,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "RecallNest - Estudia de forma inteligente",
     description: "La app que adapta tu ritmo de estudio basándose en la ciencia de la memoria. ¡Descarga tus mazos gratis y empieza a aprender!",
-    url: "https://www.recallnest.com", 
+    url: "https://recallnest.vercel.app/", 
     siteName: "RecallNest",
     images: [
       {
-        url: "/images/og-image.png", // Ejemplo: Una imagen de 1200x630 con el logo y un mockup
+        url: "/images/og-image.png", 
         width: 1200,
         height: 630,
         alt: "Vista previa de la App RecallNest",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "RecallNest | Tu memoria bajo control",
     description: "Aprende más rápido con nuestro algoritmo SM-P. Repetición espaciada diseñada para estudiantes de alto rendimiento.",
-    images: ["/images/twitter-card.png"], // Ejemplo: Imagen optimizada para Twitter
+    images: ["/images/og-image.png"], 
   },
 
   // Configuración de Favicons e Iconos de App
